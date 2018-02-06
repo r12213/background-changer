@@ -2,7 +2,7 @@
 
 # Background Changer
 
-Simple python based app that uses opencv library.
+Simple gui python based app that uses opencv library.
 
 ## Description
 Basic tool which allows you to load image,
@@ -42,7 +42,6 @@ Result is saved as output.png in current working directory.
 <img align="right" height="280" src="https://i.imgur.com/0DWhUVO.jpg"/>
 
 <br/>
-
 
 ### Todos
 

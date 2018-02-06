@@ -1,3 +1,5 @@
+<img align="left" src="https://camo.githubusercontent.com/c2ed0c1d8ac1a5ebbe7281923d42b50b7962912c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d332e362d626c75652e737667"/>
+
 # Background Changer
 
 Simple python based app that uses opencv library.
@@ -38,6 +40,8 @@ Result is saved as output.png in current working directory.
 
 <img align="left" height="280" src="https://i.imgur.com/LpYqSgg.jpg"/>
 <img align="right" height="280" src="https://i.imgur.com/0DWhUVO.jpg"/>
+
+<br/>
 
 
 ### Todos

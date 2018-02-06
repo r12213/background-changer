@@ -33,11 +33,11 @@ with "Change Back" dropdown menu.
 Result is saved as output.png in current working directory.    
 
 ### Sample outputs
-<img align="left" height="320" src="https://i.imgur.com/aSk4wYB.jpg"/>
-<img align="right" height="320" src="https://i.imgur.com/F4aMHxn.jpg"/>
+<img align="left" height="280" src="https://i.imgur.com/aSk4wYB.jpg"/>
+<img align="right" height="280" src="https://i.imgur.com/F4aMHxn.jpg"/>
 
-<img align="left" height="320" src="https://i.imgur.com/LpYqSgg.jpg"/>
-<img align="right" height="320" src="https://i.imgur.com/0DWhUVO.jpg"/>
+<img align="left" height="280" src="https://i.imgur.com/LpYqSgg.jpg"/>
+<img align="right" height="280" src="https://i.imgur.com/0DWhUVO.jpg"/>
 
 
 ### Todos

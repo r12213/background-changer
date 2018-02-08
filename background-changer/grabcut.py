@@ -3,8 +3,8 @@
 Interactive Image Segmentation using GrabCut algorithm.
 
 README FIRST:
-    Two windows will show up, one for input and one for output.
-    At first, in input window, draw a rectangle around the object using
+Two windows will show up, one for input and one for output.
+At first, in input window, draw a rectangle around the object using
 mouse right button. Then press 'n' to segment the object (once or a few times)
 For any finer touch-ups, you can press any of the keys below and draw lines on
 the areas you want. Then again press 'n' for updating the output.

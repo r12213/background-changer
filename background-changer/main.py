@@ -22,6 +22,7 @@ Result is saved as output.png in current working directory.
 
 from tkinter import Frame, Tk, BOTH, Text, Menu, END
 from tkinter import filedialog, messagebox
+import os
 import grabcut
 import changebackground
 
@@ -67,7 +68,7 @@ class Base(Frame):
             grabcut_menu.add_command(label='Extract object from image',
                                      command=self.on_grab)
 
-        if bg_loaded:
+        if bg_loaded and os.path.exists('grabcut_output.png'):
             menubar.add_cascade(label="Change Back", menu=change_menu)
             change_menu.add_command(label="Apply extracted foreground\
  image on loaded background image", command=self.on_background)
@@ -114,6 +115,8 @@ class Base(Frame):
         grabcut.init_grab(image_fg_path)
         self.txt.forget()
         Base.text_initialized = False
+        # initialize again to access background menu
+        self.initialize()
 
     def display_text(self, text):
         if not Base.text_initialized:

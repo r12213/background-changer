@@ -86,9 +86,8 @@ class Base(Frame):
         # make sure user loaded something
         if len(image_fg_path) > 0:
             fg_loaded = True
-            messagebox.showinfo("Success!",
-"Foreground image loaded successfully! You can now use use image segmentation\
- with Grabcut!")
+            messagebox.showinfo("Success!", "Foreground image loaded\
+ successfully! You can now use use image segmentation with Grabcut!")
             # initialize again to access grabcut
             self.initialize()
 
@@ -105,7 +104,8 @@ class Base(Frame):
         # make sure user loaded something
         if len(image_bg_path) > 0:
             bg_loaded = True
-            messagebox.showinfo("Success", "Background image loaded successfully")
+            messagebox.showinfo("Success",
+                                "Background image loaded successfully")
             # initialize again to access background menu
             self.initialize()
 

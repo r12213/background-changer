@@ -24,6 +24,7 @@ Module                                                     | Version
 
 ### Running program
 Run ``main.py``
+
 Steps:
 1. Load image you want to segment/extract object e.g. face.
 2. Load image you wish to be background of segmented image.

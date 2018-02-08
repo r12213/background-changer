@@ -58,9 +58,12 @@ def background_change(foreground, background):
     """Click on image and choose where you want to put foreground.
     Press Esc to exit, press S to finish the process and save.""")
     #name window
-    cv.namedWindow('draw')
+    cv.namedWindow('draw', cv.WINDOW_NORMAL)
+    #resize window - need to implement deeper logic
+    cv.resizeWindow('draw', int((bgCopy.shape[1])*0.5),int((bgCopy.shape[0])*0.5)
     #set mouse handler for window
     cv.setMouseCallback('draw', mouse)
+
 
     while True:
 

@@ -60,7 +60,7 @@ def background_change(foreground, background):
     #name window
     cv.namedWindow('draw', cv.WINDOW_NORMAL)
     #resize window - need to implement deeper logic
-    cv.resizeWindow('draw', int((bgCopy.shape[1])*0.5),int((bgCopy.shape[0])*0.5)
+    cv.resizeWindow('draw', int((bgCopy.shape[1])*0.5),int((bgCopy.shape[0])*0.5))
     #set mouse handler for window
     cv.setMouseCallback('draw', mouse)
 
